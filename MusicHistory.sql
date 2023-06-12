@@ -33,6 +33,7 @@
 --JOIN Genre ON Album.GenreId = Genre.Id
 --WHERE Genre.Name = 'Pop';
 
+
 -- Write a SELECT query that lists ALL of the Artists that have a Jazz or Rock Album
 --SELECT ArtistName FROM Artist
 --JOIN Album ON Artist.Id = Album.ArtistId
