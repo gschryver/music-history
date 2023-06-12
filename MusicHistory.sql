@@ -57,6 +57,11 @@
 --('Agaetis Byrjun', 1999, 11, 1, 65, 'Smekkleysa'),
 
 
+-- checking to see if the data was entered correctly
+--SELECT Id, ArtistName FROM Artist WHERE ArtistName = 'Sigur Ros';
+--SELECT Id, Title FROM Album WHERE Title = 'Agaetis Byrjun';
+
+
 -- Using the INSERT statement, add some songs that are on that album to the Song table.
 --INSERT INTO Song (Title, SongLength, ReleaseDate, GenreId, ArtistId, AlbumId)
 --VALUES
@@ -73,11 +78,6 @@
 --('Njosnavelin', 420, 1999, 1, 21, 25),
 --('Svo Hljott', 420, 1999, 1, 21, 25),
 --('Untitled 8', 420, 1999, 1, 21, 25);
-
-
--- checking to see if the data was entered correctly
---SELECT Id, ArtistName FROM Artist WHERE ArtistName = 'Sigur Ros';
---SELECT Id, Title FROM Album WHERE Title = 'Agaetis Byrjun';
 
 
 -- Write a SELECT query that provides the song titles, album title, and artist name for all of the data you just entered in. Use the LEFT JOIN keyword sequence to connect the tables, and the WHERE keyword to filter the results to the album and artist you added.
